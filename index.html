@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 | Agro Forte, Futuro Sustentável</title>
+    <style>
+        :root {
+            --verde-claro: #E8F5E9;
+            --verde-forte: #2E7D32;
+            --verde-escuro: #1B5E20;
+            --amarelo: #FDD835;
+            --texto: #333333;
+            --fundo: #FAFAFA;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--fundo);
+            color: var(--texto);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--verde-forte);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--amarelo);
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: var(--verde-escuro);
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--amarelo);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .tema-card {
+            background-color: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            border-top: 5px solid var(--verde-forte);
+        }
+
+        .tema-card h2 {
+            color: var(--verde-escuro);
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .tema-card p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .grid-objetivos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: var(--verde-forte);
+            margin-bottom: 0.8rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            nav { flex-direction: column; gap: 1rem; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Programa Agrinho 2026</h1>
+        <p>30 Anos de Educação, Cidadania e Sustentabilidade</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre o Tema</a>
+        <a href="#">Categorias</a>
+        <a href="#">Inscrições</a>
+    </nav>
+
+    <div class="container">
+        
+        <div class="tema-card">
+            <h2>Tema Oficial: Agro Forte, Futuro Sustentável</h2>
+            <p>Em 2026, o Agrinho nos desafia a refletir sobre o equilíbrio entre a produção no campo e a preservação do meio ambiente. Vamos descobrir juntos como a tecnologia e a consciência cidadã podem construir um futuro melhor!</p>
+        </div>
+
+        <div class="grid-objetivos">
+            <div class="card">
+                <h3>Sustentabilidade</h3>
+                <p>Aprenda a produzir alimentos de forma consciente, preservando nossos recursos naturais para as próximas gerações.</p>
+            </div>
+            <div class="card">
+                <h3>Campo e Cidade</h3>
+                <p>Descubra a conexão vital entre o que comemos na cidade e o trabalho essencial realizado no campo.</p>
+            </div>
+            <div class="card">
+                <h3>Concurso e Prêmios</h3>
+                <p>Participe dos concursos de Redação, Desenho, Robótica e Programação e mostre seu talento!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Programa Agrinho. Conectando campo e sala de aula.</p>
+    </footer>
+
+</body>
+</html>
