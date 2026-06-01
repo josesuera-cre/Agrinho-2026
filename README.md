@@ -1,4 +1,4 @@
-# 🌾 Agrinho 2026 — Conexões no Campo
+# 🌾 Agrinho 2026 — Agro forte e sustentavel
 
 > **"Agro que alimenta, gente que cuida."**
 > Portal educacional desenvolvido para o Programa Agrinho 2026, conectando o campo e a sala de aula por meio de tecnologia, ciência e sustentabilidade.
