@@ -307,5 +307,5 @@ O site implementa **7 recursos de acessibilidade** cobrindo 4 tipos de necessida
 | [WCAG 2.1](https://www.w3.org/WAI/WCAG21/quickref/) | Diretrizes de acessibilidade |
 
 ---
-
+*Todos os direitos Reservados*
 *Desenvolvido para o Programa Agrinho 2026 · Conteúdo 100% gratuito e educacional · Feito com 💚 para estudantes do campo e da cidade.*
